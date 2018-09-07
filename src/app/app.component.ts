@@ -13,6 +13,7 @@ export class AppComponent {
     new Value('Blue', 3, 'Blue'),
     new Value('Green', 10, 'Green', null, new TooltipConfiguration(null, (val, perc) => { return val.name + ' (' + val.value + ')' })),
     new Value('Orange', 3, 'Orange'),
+    new Value('Yellow', 7, 'Yellow', null, new TooltipConfiguration(true)),
   ];
 
   filterValues: Value[] = this.values;
