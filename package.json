@@ -8,7 +8,8 @@
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
-    "stats": "ng build --prod --stats-json && npx webpack-bundle-analyzer dist/dlChartHost/stats.json"
+    "stats": "ng build --prod --stats-json && npx webpack-bundle-analyzer dist/dlChartHost/stats.json",
+    "host": "ngh"
   },
   "private": true,
   "dependencies": {
